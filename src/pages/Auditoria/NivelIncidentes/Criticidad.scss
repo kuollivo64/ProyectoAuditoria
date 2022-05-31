@@ -1,0 +1,29 @@
+@import "../../../index.scss";
+.add-edit-incident-form {
+  text-align: center;
+  .ant-form-item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    svg {
+      color: rgba(0, 0, 0, 0.25);
+    }
+  }
+  .select-inc{
+    padding-top: 20px;
+    width: 50%;
+  }
+  .tox-tinymce {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .btn-submit {
+    width: 100%;
+  }
+  &__form {
+    justify-content: space-around;
+  }
+}
+.table-incidente{
+  margin: 10px;
+  margin-top: 50px;
+}
